@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        注册处理器类:
+        class：类的全限定类名
+        id：该controller的资源定位路径，即前端页面的请求路径
+    -->
+    <bean id="/some.do" class="com.csust.mvc.controller.IndexController"/>
+
+    <!--
+        配置视图解析器
+          大多说情况，为了满足对视图页面的保护（不让用户能够直接访问到视图），需要将视图定义在web-inf目录下，对视图进行保护。
+          但是这样会导致，视图的请求路径太长，并且前缀重复部分很多。这时我们就可以借助视图解析器，来解决这个问题
+        配置属性：
+            prefix：请求中重复的前缀部分
+            suffix：请求中重复的后缀部分
+    -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+
+        <property name="prefix" value="/WEB-INF/view/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+</beans>
