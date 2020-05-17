@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/02-springmvc-primary-annotation" />
     <file type="web" url="file://$PROJECT_DIR$/03-springmvc-encoding" />
     <file type="web" url="file://$PROJECT_DIR$/04-springmvc-returnvalue" />
+    <file type="web" url="file://$PROJECT_DIR$/05-springmvc-forward-redirect" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/02-springmvc-primary-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/03-springmvc-encoding/pom.xml" />
         <option value="$PROJECT_DIR$/04-springmvc-returnvalue/pom.xml" />
+        <option value="$PROJECT_DIR$/05-springmvc-forward-redirect/pom.xml" />
       </list>
     </option>
   </component>

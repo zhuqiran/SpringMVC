@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/02-springmvc-primary-annotation/02-springmvc-primary-annotation.iml" filepath="$PROJECT_DIR$/02-springmvc-primary-annotation/02-springmvc-primary-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-springmvc-encoding/03-springmvc-encoding.iml" filepath="$PROJECT_DIR$/03-springmvc-encoding/03-springmvc-encoding.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-springmvc-returnvalue/04-springmvc-returnvalue.iml" filepath="$PROJECT_DIR$/04-springmvc-returnvalue/04-springmvc-returnvalue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-springmvc-forward-redirect/05-springmvc-forward-redirect.iml" filepath="$PROJECT_DIR$/05-springmvc-forward-redirect/05-springmvc-forward-redirect.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringMVC.iml" filepath="$PROJECT_DIR$/.idea/SpringMVC.iml" />
     </modules>
   </component>
