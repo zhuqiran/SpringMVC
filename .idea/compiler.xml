@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01-springmvc-primary" />
+        <module name="02-springmvc-primary-annotation" />
+        <module name="03-springmvc-encoding" />
+        <module name="04-springmvc-returnvalue" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-springmvc-primary" target="1.8" />
+      <module name="02-springmvc-primary-annotation" target="1.8" />
+      <module name="03-springmvc-encoding" target="1.8" />
+      <module name="04-springmvc-returnvalue" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

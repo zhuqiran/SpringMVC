@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/02-springmvc-primary-annotation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03-springmvc-encoding/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/03-springmvc-encoding/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-springmvc-returnvalue/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-springmvc-returnvalue/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

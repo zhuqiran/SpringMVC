@@ -2,17 +2,58 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="03-springmvc-encoding:war exploded" />
+      <artifact name="04-springmvc-returnvalue:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80e1eb35-64b5-4240-b573-984f683a6cc7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/03-springmvc-encoding/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-springmvc-encoding/src/main/java/com/csust/mvc/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-springmvc-encoding/src/main/resources/springmvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-springmvc-encoding/src/main/webapp/WEB-INF/view/show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-springmvc-encoding/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-springmvc-encoding/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/SpringMVC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/01_springmvc_primary_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/01_springmvc_primary_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/02_springmvc_primary_annotation_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/02_springmvc_primary_annotation_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/03_springmvc_encoding_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/03_springmvc_encoding_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/04_springmvc_returnvalue_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/04_springmvc_returnvalue_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-springmvc-primary/01-springmvc-primary.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-springmvc-primary-annotation/02-springmvc-primary-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-springmvc-encoding/03-springmvc-encoding.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/04-springmvc-returnvalue.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/java/com/csust/mvc/beans/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/java/com/csust/mvc/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/webapp/WEB-INF/view/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/webapp/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/webapp/static/html/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/webapp/static/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/webapp/static/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/webapp/static/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/webapp/static/js/jquery-3.4.1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -39,11 +80,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Jsp File" />
         <option value="XML File" />
         <option value="spring-beans.schema" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -77,30 +118,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/03-springmvc-encoding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-springmvc-returnvalue/src/main/webapp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.17701149" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\SpringMVC\04-springmvc-returnvalue\src\main\webapp\WEB-INF" />
+      <recent name="D:\IdeaProjects\SpringMVC\04-springmvc-returnvalue\src\main\webapp" />
       <recent name="D:\IdeaProjects\SpringMVC\01-springmvc-primary\src\main\webapp\WEB-INF\view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\SpringMVC\04-springmvc-returnvalue\src\main\webapp" />
+      <recent name="D:\IdeaProjects\SpringMVC\04-springmvc-returnvalue\src\main\webapp\static\js" />
+      <recent name="D:\IdeaProjects\SpringMVC\04-springmvc-returnvalue\src\main\webapp\static\images" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="tomcat-9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="tomcat-9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_181\jre">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="03-springmvc-encoding:war exploded">
+        <artifact name="04-springmvc-returnvalue:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/03_springmvc_encoding" />
+            <option name="CONTEXT_PATH" value="/04_springmvc_returnvalue" />
           </settings>
         </artifact>
       </deployment>
@@ -163,7 +213,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="03-springmvc-encoding:war exploded" />
+          <artifact name="04-springmvc-returnvalue:war exploded" />
         </option>
       </method>
     </configuration>
@@ -202,7 +252,11 @@
       <option name="presentableId" value="Default" />
       <updated>1589528505994</updated>
       <workItem from="1589528509348" duration="1383000" />
-      <workItem from="1589593238275" duration="16879000" />
+      <workItem from="1589593238275" duration="22108000" />
+      <workItem from="1589686311047" duration="2146000" />
+      <workItem from="1589688486215" duration="803000" />
+      <workItem from="1589692133233" duration="68000" />
+      <workItem from="1589692275735" duration="3246000" />
     </task>
     <task id="LOCAL-00001" summary="配置方式的SpringMVC项目">
       <created>1589611073363</created>
@@ -218,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589620608681</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="在该模块中，演示了请求和响应时的中文乱码问题的解决">
+      <created>1589680981681</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589680981681</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,25 +289,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="配置方式的SpringMVC项目" />
     <MESSAGE value="注解方式开发的SpringMVC项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="注解方式开发的SpringMVC项目" />
+    <MESSAGE value="在该模块中，演示了请求和响应时的中文乱码问题的解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="在该模块中，演示了请求和响应时的中文乱码问题的解决" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="457" y="216" key="#Project_Structure" timestamp="1589595875333">
+    <state x="457" y="216" key="#Project_Structure" timestamp="1589681486668">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="457" y="216" key="#Project_Structure/0.0.1728.1109@0.0.1728.1109" timestamp="1589595875333" />
-    <state x="319" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589627034710">
+    <state x="457" y="216" key="#Project_Structure/0.0.1728.1109@0.0.1728.1109" timestamp="1589681486668" />
+    <state x="319" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589686069070">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="319" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1728.1109@0.0.1728.1109" timestamp="1589627034710" />
-    <state x="495" y="248" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1589619328779">
+    <state x="319" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1728.1109@0.0.1728.1109" timestamp="1589686069070" />
+    <state x="495" y="248" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1589681870788">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="495" y="248" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1728.1109@0.0.1728.1109" timestamp="1589619328779" />
-    <state x="670" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1589598518279">
+    <state x="495" y="248" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1728.1109@0.0.1728.1109" timestamp="1589681870788" />
+    <state x="670" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1589682283635">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="670" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1728.1109@0.0.1728.1109" timestamp="1589598518279" />
+    <state x="670" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1728.1109@0.0.1728.1109" timestamp="1589682283635" />
     <state x="716" y="447" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1589626855187">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
@@ -259,89 +321,97 @@
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
     <state x="579" y="538" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1728.1109@0.0.1728.1109" timestamp="1589594653045" />
-    <state x="423" y="153" key="CommitChangelistDialog2" timestamp="1589620608018">
+    <state x="595" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589691974663">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="423" y="153" key="CommitChangelistDialog2/0.0.1728.1109@0.0.1728.1109" timestamp="1589620608018" />
-    <state x="645" y="313" key="FileChooserDialogImpl" timestamp="1589626628673">
+    <state x="595" y="304" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1728.1109@0.0.1728.1109" timestamp="1589691974663" />
+    <state x="548" y="245" key="#tomcat-9" timestamp="1589688304552">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="645" y="313" key="FileChooserDialogImpl/0.0.1728.1109@0.0.1728.1109" timestamp="1589626628673" />
-    <state width="1685" height="304" key="GridCell.Tab.0.bottom" timestamp="1589680933022">
+    <state x="548" y="245" key="#tomcat-9/0.0.1728.1109@0.0.1728.1109" timestamp="1589688304552" />
+    <state x="423" y="153" key="CommitChangelistDialog2" timestamp="1589680980971">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1685" height="304" key="GridCell.Tab.0.bottom/0.0.1728.1109@0.0.1728.1109" timestamp="1589680933022" />
-    <state width="1685" height="304" key="GridCell.Tab.0.center" timestamp="1589680933022">
+    <state x="423" y="153" key="CommitChangelistDialog2/0.0.1728.1109@0.0.1728.1109" timestamp="1589680980971" />
+    <state x="645" y="313" key="FileChooserDialogImpl" timestamp="1589688152876">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1685" height="304" key="GridCell.Tab.0.center/0.0.1728.1109@0.0.1728.1109" timestamp="1589680933022" />
-    <state width="1685" height="304" key="GridCell.Tab.0.left" timestamp="1589680933022">
+    <state x="645" y="313" key="FileChooserDialogImpl/0.0.1728.1109@0.0.1728.1109" timestamp="1589688152876" />
+    <state width="1685" height="304" key="GridCell.Tab.0.bottom" timestamp="1589700691813">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1685" height="304" key="GridCell.Tab.0.left/0.0.1728.1109@0.0.1728.1109" timestamp="1589680933022" />
-    <state width="1685" height="304" key="GridCell.Tab.0.right" timestamp="1589680933022">
+    <state width="1685" height="304" key="GridCell.Tab.0.bottom/0.0.1728.1109@0.0.1728.1109" timestamp="1589700691813" />
+    <state width="1685" height="304" key="GridCell.Tab.0.center" timestamp="1589700691812">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1685" height="304" key="GridCell.Tab.0.right/0.0.1728.1109@0.0.1728.1109" timestamp="1589680933022" />
-    <state width="1356" height="376" key="GridCell.Tab.1.bottom" timestamp="1589627331679">
+    <state width="1685" height="304" key="GridCell.Tab.0.center/0.0.1728.1109@0.0.1728.1109" timestamp="1589700691812" />
+    <state width="1685" height="304" key="GridCell.Tab.0.left" timestamp="1589700691811">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1356" height="376" key="GridCell.Tab.1.bottom/0.0.1728.1109@0.0.1728.1109" timestamp="1589627331679" />
-    <state width="1356" height="376" key="GridCell.Tab.1.center" timestamp="1589627331679">
+    <state width="1685" height="304" key="GridCell.Tab.0.left/0.0.1728.1109@0.0.1728.1109" timestamp="1589700691811" />
+    <state width="1685" height="304" key="GridCell.Tab.0.right" timestamp="1589700691813">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1356" height="376" key="GridCell.Tab.1.center/0.0.1728.1109@0.0.1728.1109" timestamp="1589627331679" />
-    <state width="1356" height="376" key="GridCell.Tab.1.left" timestamp="1589627331679">
+    <state width="1685" height="304" key="GridCell.Tab.0.right/0.0.1728.1109@0.0.1728.1109" timestamp="1589700691813" />
+    <state width="1356" height="448" key="GridCell.Tab.1.bottom" timestamp="1589699641559">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1356" height="376" key="GridCell.Tab.1.left/0.0.1728.1109@0.0.1728.1109" timestamp="1589627331679" />
-    <state width="1356" height="376" key="GridCell.Tab.1.right" timestamp="1589627331679">
+    <state width="1356" height="448" key="GridCell.Tab.1.bottom/0.0.1728.1109@0.0.1728.1109" timestamp="1589699641559" />
+    <state width="1356" height="448" key="GridCell.Tab.1.center" timestamp="1589699641559">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1356" height="376" key="GridCell.Tab.1.right/0.0.1728.1109@0.0.1728.1109" timestamp="1589627331679" />
-    <state width="1356" height="376" key="GridCell.Tab.2.bottom" timestamp="1589627331679">
+    <state width="1356" height="448" key="GridCell.Tab.1.center/0.0.1728.1109@0.0.1728.1109" timestamp="1589699641559" />
+    <state width="1356" height="448" key="GridCell.Tab.1.left" timestamp="1589699641559">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1356" height="376" key="GridCell.Tab.2.bottom/0.0.1728.1109@0.0.1728.1109" timestamp="1589627331679" />
-    <state width="1356" height="376" key="GridCell.Tab.2.center" timestamp="1589627331679">
+    <state width="1356" height="448" key="GridCell.Tab.1.left/0.0.1728.1109@0.0.1728.1109" timestamp="1589699641559" />
+    <state width="1356" height="448" key="GridCell.Tab.1.right" timestamp="1589699641559">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1356" height="376" key="GridCell.Tab.2.center/0.0.1728.1109@0.0.1728.1109" timestamp="1589627331679" />
-    <state width="1356" height="376" key="GridCell.Tab.2.left" timestamp="1589627331679">
+    <state width="1356" height="448" key="GridCell.Tab.1.right/0.0.1728.1109@0.0.1728.1109" timestamp="1589699641559" />
+    <state width="1356" height="448" key="GridCell.Tab.2.bottom" timestamp="1589699641559">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1356" height="376" key="GridCell.Tab.2.left/0.0.1728.1109@0.0.1728.1109" timestamp="1589627331679" />
-    <state width="1356" height="376" key="GridCell.Tab.2.right" timestamp="1589627331679">
+    <state width="1356" height="448" key="GridCell.Tab.2.bottom/0.0.1728.1109@0.0.1728.1109" timestamp="1589699641559" />
+    <state width="1356" height="448" key="GridCell.Tab.2.center" timestamp="1589699641559">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state width="1356" height="376" key="GridCell.Tab.2.right/0.0.1728.1109@0.0.1728.1109" timestamp="1589627331679" />
+    <state width="1356" height="448" key="GridCell.Tab.2.center/0.0.1728.1109@0.0.1728.1109" timestamp="1589699641559" />
+    <state width="1356" height="448" key="GridCell.Tab.2.left" timestamp="1589699641559">
+      <screen x="0" y="0" width="1728" height="1109" />
+    </state>
+    <state width="1356" height="448" key="GridCell.Tab.2.left/0.0.1728.1109@0.0.1728.1109" timestamp="1589699641559" />
+    <state width="1356" height="448" key="GridCell.Tab.2.right" timestamp="1589699641559">
+      <screen x="0" y="0" width="1728" height="1109" />
+    </state>
+    <state width="1356" height="448" key="GridCell.Tab.2.right/0.0.1728.1109@0.0.1728.1109" timestamp="1589699641559" />
     <state x="527" y="326" key="NewModule_or_Project.wizard" timestamp="1589626630458">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
     <state x="527" y="326" key="NewModule_or_Project.wizard/0.0.1728.1109@0.0.1728.1109" timestamp="1589626630458" />
-    <state x="368" y="200" key="SettingsEditor" timestamp="1589626659747">
+    <state x="368" y="200" key="SettingsEditor" timestamp="1589688056834">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="368" y="200" key="SettingsEditor/0.0.1728.1109@0.0.1728.1109" timestamp="1589626659747" />
+    <state x="368" y="200" key="SettingsEditor/0.0.1728.1109@0.0.1728.1109" timestamp="1589688056834" />
     <state x="586" y="296" width="546" height="524" key="StructurePopup" timestamp="1589627147933">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
     <state x="586" y="296" width="546" height="524" key="StructurePopup/0.0.1728.1109@0.0.1728.1109" timestamp="1589627147933" />
-    <state x="457" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589620633182">
+    <state x="457" y="291" key="Vcs.Push.Dialog.v2" timestamp="1589680986564">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="457" y="291" key="Vcs.Push.Dialog.v2/0.0.1728.1109@0.0.1728.1109" timestamp="1589620633182" />
-    <state x="557" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1589593242219">
+    <state x="457" y="291" key="Vcs.Push.Dialog.v2/0.0.1728.1109@0.0.1728.1109" timestamp="1589680986564" />
+    <state x="557" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1589692275541">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="557" y="383" key="com.intellij.ide.util.TipDialog/0.0.1728.1109@0.0.1728.1109" timestamp="1589593242219" />
-    <state x="353" y="146" key="new project wizard" timestamp="1589618207037">
+    <state x="557" y="383" key="com.intellij.ide.util.TipDialog/0.0.1728.1109@0.0.1728.1109" timestamp="1589692275541" />
+    <state x="353" y="146" key="new project wizard" timestamp="1589681070782">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="353" y="146" key="new project wizard/0.0.1728.1109@0.0.1728.1109" timestamp="1589618207037" />
-    <state x="547" y="494" key="spring file set editor" timestamp="1589618904156">
+    <state x="353" y="146" key="new project wizard/0.0.1728.1109@0.0.1728.1109" timestamp="1589681070782" />
+    <state x="547" y="494" key="spring file set editor" timestamp="1589681491974">
       <screen x="0" y="0" width="1728" height="1109" />
     </state>
-    <state x="547" y="494" key="spring file set editor/0.0.1728.1109@0.0.1728.1109" timestamp="1589618904156" />
+    <state x="547" y="494" key="spring file set editor/0.0.1728.1109@0.0.1728.1109" timestamp="1589681491974" />
   </component>
 </project>

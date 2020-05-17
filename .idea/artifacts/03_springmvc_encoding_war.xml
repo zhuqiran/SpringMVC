@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="03-springmvc-encoding:war">
+    <output-path>$PROJECT_DIR$/03-springmvc-encoding/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>03-springmvc-encoding</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="03-springmvc-encoding-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="03-springmvc-encoding:war exploded" />
+    </root>
+  </artifact>
+</component>
