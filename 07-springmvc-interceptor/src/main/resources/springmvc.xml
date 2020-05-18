@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--由于使用的是注解式开发SpringMVC项目， 所以需要配置组件扫描器，扫描指定的package。无须再注册Controller类-->
+    <context:component-scan base-package="com.csust.mvc.controller"/>
+
+    <!--配置视图解析器-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/view/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!--配置注解驱动-->
+    <mvc:annotation-driven/>
+
+    <!--注册拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--定义拦截的资源的URI-->
+            <mvc:mapping path="/user/**"/>
+            <!--定义不拦截的URI-->
+            <mvc:exclude-mapping path="/user/index.do"/>
+            <bean class="com.csust.mvc.interceptor.SelfDefineInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+</beans>

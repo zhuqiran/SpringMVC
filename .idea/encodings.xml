@@ -9,7 +9,12 @@
     <file url="file://$PROJECT_DIR$/03-springmvc-encoding/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-springmvc-returnvalue/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/04-springmvc-returnvalue/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-springmvc-forward-redirect/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/05-springmvc-forward-redirect/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springmvc-process-exception/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springmvc-process-exception/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-springmvc-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-springmvc-interceptor/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
