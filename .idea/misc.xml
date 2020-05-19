@@ -8,6 +8,7 @@
     <file type="web" url="file://$PROJECT_DIR$/05-springmvc-forward-redirect" />
     <file type="web" url="file://$PROJECT_DIR$/06-springmvc-process-exception" />
     <file type="web" url="file://$PROJECT_DIR$/07-springmvc-interceptor" />
+    <file type="web" url="file://$PROJECT_DIR$/08-springmvc-spring-mybatis-1" />
   </component>
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
@@ -22,6 +23,7 @@
         <option value="$PROJECT_DIR$/05-springmvc-forward-redirect/pom.xml" />
         <option value="$PROJECT_DIR$/06-springmvc-process-exception/pom.xml" />
         <option value="$PROJECT_DIR$/07-springmvc-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/08-springmvc-spring-mybatis-1/pom.xml" />
       </list>
     </option>
   </component>

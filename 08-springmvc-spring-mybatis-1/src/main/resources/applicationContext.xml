@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--Spring配置文件-->
+    <!--jdbc配置属性文件-->
+    <context:property-placeholder location="classpath:jdbc.properties"/>
+
+    <!--配置数据源-->
+    <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.user}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--配置SQLSessionFactoryBean-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--配置mybatis的主配置文件-->
+        <property name="configLocation" value="classpath:mybatis.xml"/>
+        <!--指定数据源-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--配置Dao层映射扫描器，生成动态代理对象-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--配置SqlSessionFactory-->
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        <!--指定为Dao层的所有接口创建实体对象，默认id为Dao层接口的简单接口名-->
+        <property name="basePackage" value="com.csust.mvc.dao"/>
+    </bean>
+
+    <!--配置Service层的组件扫描器-->
+    <context:component-scan base-package="com.csust.mvc.service"/>
+</beans>

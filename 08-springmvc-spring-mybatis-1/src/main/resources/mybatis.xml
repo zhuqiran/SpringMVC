@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <!--为实体类起别名，以实体类的简单类名作为实体类的别名-->
+        <package name="com.csust.mvc.beans"/>
+    </typeAliases>
+
+    <!--注册mapper映射文件-->
+    <mappers>
+        <!--读取指定包下面的所有mapper映射文件-->
+        <package name="com.csust.mvc.dao"/>
+    </mappers>
+</configuration>
