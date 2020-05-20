@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/06-springmvc-process-exception/06-springmvc-process-exception.iml" filepath="$PROJECT_DIR$/06-springmvc-process-exception/06-springmvc-process-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-springmvc-interceptor/07-springmvc-interceptor.iml" filepath="$PROJECT_DIR$/07-springmvc-interceptor/07-springmvc-interceptor.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-springmvc-spring-mybatis-1/08-springmvc-spring-mybatis-1.iml" filepath="$PROJECT_DIR$/08-springmvc-spring-mybatis-1/08-springmvc-spring-mybatis-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-springmvc-spring-mybatis-2/09-springmvc-spring-mybatis-2.iml" filepath="$PROJECT_DIR$/09-springmvc-spring-mybatis-2/09-springmvc-spring-mybatis-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringMVC.iml" filepath="$PROJECT_DIR$/.idea/SpringMVC.iml" />
     </modules>
   </component>
